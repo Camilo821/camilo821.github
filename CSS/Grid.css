@@ -1,0 +1,22 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    padding: 5px;
+}
+.nombre{
+    width: 100%;
+    background: #0e9805;
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+}
+.Contenido{
+    background: #16c80b;
+    padding: 5px;
+}
+.marco{
+    background: #16c80b;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 45% 45%;
+}

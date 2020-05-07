@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    margin: auto;
+    width: 92%;
+}
+header{
+    width: 100%;
+    height: 75px;
+    background: #18a8c8;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    font-family: 'Bebas Neue', bold;
+    font-weight: normal;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+header li {
+    display: inline-block;
+    margin: 7px;
+    list-style: none;
+}
+main{
+    margin-top: 20px;
+}
+.portada{
+    height: 200px;
+    margin-top: 7px;
+    background: #18a8c8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+header nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.titulo{
+    margin-right: 7px;
+    background: #0b95b4;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 20%;
+}
+p span{
+    font-style: italic;
+}
+article > h2{
+    text-align: center;
+    font-size: 50px;
+}
+article{
+    padding: 4px;
+}
+article p{
+    text-align: center;
+}
+li span{
+    font-weight: bold;
+}
+article > ul{
+    text-align: center;
+}
+article li{
+    list-style: none;
+    margin: 5px;
+}
+footer p{
+    height: 35px;
+    width: 100%;
+    background: #18a8c8;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+footer{
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+}
+.imagenes{
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+}
+.titulo2{
+    text-align: center;
+}
+.imagenes{
+    margin-bottom: 5px;
+}
+.marco h1{
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+}
+header nav a:hover{
+    color: #AAA;
+}
+.h1{
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+    text-align: center;
+    font-size: 40px;
+}
